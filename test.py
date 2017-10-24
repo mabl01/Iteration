@@ -1,9 +1,7 @@
-from iteration import *
+from github import *
 
-scores = [100, 90, 85, 100, 0, 86, 50, 100]
-
-iterate(scores)
+scores = [100, 90, 85, 100, 0]
 
 names = ["Amy", "Bill", "Carol", "Dan", "Emily"]
 
-iterate(names)
+makeup_to_90(names, scores)
